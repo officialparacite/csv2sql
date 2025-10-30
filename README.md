@@ -62,7 +62,7 @@ The schema is saved as JSON, so you can manually edit types without re-running t
 }
 ```
 
-Clean the Schema
+Clean the Schema:
 
 ```bash
 ./schema_fix.sh schema.json
@@ -72,7 +72,7 @@ Clean the Schema
 
 This step validates and formats the JSON for the SQL generator.
 
-Finally Generate SQL
+Finally Generate SQL:
 
 ```bash
 ./generate.awk data_unix.csv my_table_name > output.sql
