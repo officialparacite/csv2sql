@@ -100,7 +100,7 @@ INSERT INTO my_table_name (TaskID, Title, DueDate) VALUES (2, 'Fix navigation bu
 - Won't handle **newlines inside quoted fields** (multi-line cells)
 - Expects **comma-separated** values (not tab or semicolon)
 
-## Best for:
+## Best for
 
 - Clean, well-formatted CSVs
 - Large datasets (millions of rows)
