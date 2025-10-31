@@ -19,9 +19,8 @@ cp original.csv original_unix.csv
 ./generate.awk original_unix.csv my_table > output.sql
 ```
 
-## What's Happening?
+## What it does:
 
-**What it does:**
 - Creates a Unix-compatible file
 - Scans all rows and infers data types
 - Detects nullable columns
