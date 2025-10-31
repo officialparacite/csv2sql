@@ -2,7 +2,17 @@
 
 A blazingly fast AWK-based toolkit for converting CSV files to SQL statements with automatic type inference.
 
-## Quick Start
+## Quick Start Guide
+
+```bash
+# Basic usage
+./csv2sql.sh data.csv my_table
+
+# Custom output file
+./csv2sql.sh data.csv my_table my_output.sql
+```
+
+## Detailed Guide
 
 ```bash
 # 1. Make a backup and convert line endings
@@ -18,6 +28,7 @@ cp original.csv original_unix.csv
 # 4. Generate SQL
 ./generate.awk original_unix.csv my_table > output.sql
 ```
+
 
 ## What it does:
 
